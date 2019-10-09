@@ -1,7 +1,4 @@
-"""
-sk项目添加定时任务的demo，公司整体有一个用户中心的数据表，用来记录公司的人员流动情况，因为内部管理系统有权限区分，因此需要从公司的数据中心表中拉取用户信息记录到本项目的用户表中，因此需要定时执行一些脚本，
-如果使用contab,更换服务器的时候需要再次使用contab配置脚本的定时任务，因此将脚本与项目结合起来定时执行。
-"""
+
 
 from flask import Flask
 from flask_apscheduler import APScheduler
